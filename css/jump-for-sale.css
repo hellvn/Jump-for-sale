@@ -1,0 +1,55 @@
+img{
+
+}
+.container{
+    border: 2px solid black;
+    width: 1024px;
+    margin: 0px auto;
+}
+.frames{
+    background-color: black;
+}
+.images{
+    border: 2px solid black;
+    background-color: white;
+    width: 250px;
+    float: left;
+    padding-left: 2px;
+}
+.images:hover{
+    border: 2px solid lightgray;
+}
+.discount{
+    text-align: center;
+    width: 1024px;
+    height: 720px;
+    background-color: darkgray;
+}
+@-webkit-keyframes my {
+    0% { color: #F8CD0A; }
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  }
+}
+@-moz-keyframes my {
+    0% { color: #F8CD0A;  }
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  }
+}
+@-o-keyframes my {
+    0% { color: #F8CD0A; }
+    50% { color: #fff; }
+    100% { color: #F8CD0A;  }
+}
+@keyframes my {
+    0% { color: #F8CD0A;  }
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  }
+}
+#tap {
+    font-size:24px;
+    font-weight:bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite;
+    -o-animation: my 700ms infinite;
+    animation: my 700ms infinite;
+}
